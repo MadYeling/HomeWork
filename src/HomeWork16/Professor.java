@@ -5,15 +5,15 @@ public class Professor {
     private boolean sex;
     private int age, result;
 
-    public Professor(String name, String course, char sex, int age, int result) {
+    public Professor(String name, String course, String sex, int age, int result) {
         this.age = age;
         this.course = course;
         this.name = name;
         switch (sex) {
-            case 'ÄÐ':
+            case "ÄÐ":
                 this.sex = true;
                 break;
-            case 'Å®':
+            case "Å®":
                 this.sex = false;
                 break;
             default:
