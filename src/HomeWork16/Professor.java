@@ -10,14 +10,14 @@ public class Professor {
         this.course = course;
         this.name = name;
         switch (sex) {
-            case "ÄĞ":
+            case "ç”·":
                 this.sex = true;
                 break;
-            case "Å®":
+            case "å¥³":
                 this.sex = false;
                 break;
             default:
-                System.out.println("Ö»ÄÜÎªÄĞ»òÅ®");
+                System.out.println("åªèƒ½ä¸ºç”·æˆ–å¥³");
                 break;
         }
         this.result = result;
@@ -49,30 +49,30 @@ public class Professor {
         String sex1;
         String result1;
         if (this.sex) {
-            sex1 = "ÄĞ";
+            sex1 = "ç”·";
         } else {
-            sex1 = "Å®";
+            sex1 = "å¥³";
         }
         switch (result) {
             case 1:
-                result1 = "ÓÅĞã";
+                result1 = "ä¼˜ç§€";
                 break;
             case 2:
-                result1 = "Á¼ºÃ";
+                result1 = "è‰¯å¥½";
                 break;
             case 3:
-                result1 = "Ò»°ã";
+                result1 = "ä¸€èˆ¬";
                 break;
             case 4:
-                result1 = "²î";
+                result1 = "å·®";
                 break;
             default:
-                result1 = "ÎŞ";
-                System.out.println("ÎŞĞ§µÄ½ÌÑ§ÖÊÁ¿");
+                result1 = "æ— ";
+                System.out.println("æ— æ•ˆçš„æ•™å­¦è´¨é‡");
                 break;
         }
 
-        return "ĞÕÃû£º" + name + "\nĞÔ±ğ£º" + sex1 + "\nÄêÁä£º" + age + "\n½ÌÊÚ¿Î³Ì£º" + course + "\n½ÌÑ§Ğ§¹û£º" + result1;
+        return "å§“åï¼š" + name + "\næ€§åˆ«ï¼š" + sex1 + "\nå¹´é¾„ï¼š" + age + "\næ•™æˆè¯¾ç¨‹ï¼š" + course + "\næ•™å­¦æ•ˆæœï¼š" + result1;
     }
 }
 

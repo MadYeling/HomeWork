@@ -2,7 +2,7 @@ package HomeWork16;
 
 public class Run {
     public static void main(String[] args) {
-        Professor professor = new Professor("ÍõÊ¦¸µ", "java³ÌĞòÉè¼Æ", "ÄĞ", 35, 1);
+        Professor professor = new Professor("ç‹å¸ˆå‚…", "javaç¨‹åºè®¾è®¡", "ç”·", 35, 1);
         System.out.println(professor.getDetails());
     }
 

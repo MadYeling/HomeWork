@@ -2,7 +2,7 @@ package HomeWork15;
 
 public class Run {
     public static void main(String[] args) {
-        Course cource = new Course(112101,"Java³ÌĞòÉè¼Æ",3);
+        Course cource = new Course(112101,"Javaç¨‹åºè®¾è®¡",3);
         cource.printCourseInfo();
     }
 }

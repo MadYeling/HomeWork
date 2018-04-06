@@ -35,6 +35,6 @@ public class Course {
     }
 
     public void printCourseInfo() {
-        System.out.println("¿Î³Ì±àºÅ£º" + cNumber + "\n¿Î³ÌÃû£º" + cName + "\nÑ§·ÖÊı£º" + cUnit);
+        System.out.println("è¯¾ç¨‹ç¼–å·ï¼š" + cNumber + "\nè¯¾ç¨‹åï¼š" + cName + "\nå­¦åˆ†æ•°ï¼š" + cUnit);
     }
 }
