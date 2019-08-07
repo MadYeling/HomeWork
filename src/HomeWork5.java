@@ -7,9 +7,10 @@ public class HomeWork5 {
 
         for (i = 1; i <= 100; i++) {
 
-            if (i % 3 == 0 | i % 5 == 0) {
-                j += i;
-            }
+//            if (i % 3 == 0 | i % 5 == 0) {
+//                j += i;
+//            }
+            j += i % 3 == 0 | i % 5 == 0 ? i : 0;
 
         }
         System.out.print(j);

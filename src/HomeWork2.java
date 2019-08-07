@@ -19,7 +19,7 @@ public class HomeWork2 {
                 System.out.println("你输入的不是字母");
             }
         } else {
-            System.out.println("你输入的不是字母");
+            System.out.println("亲你输入的根本不是字母好吗！");
         }
 
     }

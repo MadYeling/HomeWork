@@ -11,7 +11,12 @@ public class HomeWork1 {
 //        e = g;
         System.out.println("请输入数字");
         Scanner b = new Scanner(System.in);
-        a = b.nextInt();
+        try {
+            a = b.nextInt();
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("亲你输入的根本不是数字好吗！");
+            return;
+        }
 
         if (a == 0) {
             System.out.println("数字为0");
